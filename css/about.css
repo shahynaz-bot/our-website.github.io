@@ -187,9 +187,9 @@ blockquote {
     color: var(--color-text);
 }
 
-/* =========================================
-   قسم promise
-   ========================================= */
+
+
+
 .promise {
     padding: 90px 60px;
     text-align: center;
@@ -210,45 +210,3 @@ blockquote {
     font-size: 15px;
 }
 
-@media (max-width: 900px) {
-    .navbar,
-    .about-hero,
-    .our-story,
-    .gallery,
-    .numbers,
-    .promise,
-    footer {
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-
-    .about-hero,
-    .our-story {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .nav-links {
-        display: none;
-    }
-
-    .gallery-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .numbers-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .footer-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 500px) {
-    .gallery-container,
-    .numbers-container,
-    .footer-container {
-        grid-template-columns: 1fr;
-    }
-}
