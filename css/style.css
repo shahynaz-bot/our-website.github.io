@@ -151,7 +151,9 @@ footer {
 }
 
 .social-icons a:hover {
-    background-color: rgba(96, 96, 96, 0.635);
+    background-color: var(--color-pink-dark);
+    color: var(--color-white);
+    transform: translateY(-4px);
 }
 
 hr {
@@ -163,5 +165,6 @@ hr {
 .copyright {
     text-align: center;
     font-size: 13px;
-    color: var(--color-text);
+    color: var(--color-text-light);
+    padding-top: 20px;
 }
